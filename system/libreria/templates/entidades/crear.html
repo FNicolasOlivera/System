@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block titulo %} Agregar nuevo caballo {% endblock %}
+{% block contenido %} 
+
+        <div class="card">
+                <div class="card-header">Crear un caballo</div>
+                <div class="card-body">
+                        <h4 class="card-title">Datos del caballo</h4>
+                        {% include 'entidades/form.html' %}
+                </div>
+                
+        </div>
+        
+        
+
+{% endblock %}

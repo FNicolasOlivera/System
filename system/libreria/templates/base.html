@@ -22,9 +22,11 @@
     <body>
         <nav class="navbar navbar-expand navbar-light bg-light">
             <div class="nav navbar-nav">
-                <a class="nav-item nav-link active" href="#" aria-current="page"
+                <a class="nav-item nav-link active" href="{% url 'inicio' %}" aria-current="page"
                     >Inicio</a>
-                <a class="nav-item nav-link" href="#">Caballos</a>
+                <a class="nav-item nav-link" href="{% url 'nosotros' %}">Nosotros</a>
+
+                <a class="nav-item nav-link" href="{% url 'caballos' %}">Caballos</a>
             </div>
         </nav>
         
